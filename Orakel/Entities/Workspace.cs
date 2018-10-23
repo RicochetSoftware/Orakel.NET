@@ -64,7 +64,7 @@ namespace Orakel
                 {
                     result.Position = callback.HitPointWorld;
                     result.Normal = callback.HitNormalWorld;
-                    //result.Hit = callback.CollisionObject;
+                    result.Hit = callback.CollisionObject;
                 }
             }
             return result;
